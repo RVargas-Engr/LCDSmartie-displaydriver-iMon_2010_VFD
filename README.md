@@ -16,6 +16,10 @@ The iMONDisplay.dll driver from Soundgraph was only released as a 32-bit binary,
 is also necessarily a 32-bit DLL.  This also means that it will only run on the 32-bit version of
 LCDSmartie.  It was tested on both v5.4.2.92++ and v5.6.
 
+You will also need to have the iMon Manager software running, with the "Use Display Plug-in Mode"
+checkbox checked.  The version that I used all throughout development of this driver is 8.12.1202, so
+I don't know if there are any issues with other versions.
+
 # How to Use
 The imon_2010_vfd.dll file should be copied to the "displays" sub-folder of LCDSmartie.  The
 iMONDisplay.dll file can exist in any folder, but it is probably most convenient to copy it to
